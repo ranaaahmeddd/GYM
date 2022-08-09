@@ -1,0 +1,279 @@
+html{
+    font-family:"PT Sans Narrow" ;
+    font-size: 16px;
+    color: white;
+    background-color: #060606;
+}
+header{
+min-height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7) ),
+ url(../images/background2.jpg);
+ background-position: center;
+ background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    margin-top: 20px;
+}
+.main-nav ul{
+    list-style: none;
+    display: flex;
+}
+.main-nav  ul li{
+    margin-left: 30px;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.main-nav li a:hover{
+    text-decoration: underline;
+    color: #E5CE34;
+}
+    
+.class1{
+
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.title{
+    letter-spacing: 4px;
+    word-spacing: 6px;
+    margin-left: 40px;
+   font-size: 15px;
+   color: white;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+   font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+h1 span{
+    color: #E5CE34;
+}
+.btn{
+    border: solid 1px #E5CE34;
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #d5be25;
+    text-decoration: none;
+}
+.btn:hover{
+  color: #d5be25;
+  background-color: white;
+
+}
+section{
+    padding: 40px 0px;
+    background-color: #060606;
+}
+h2{
+    
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+hr{
+    width: 100px;
+    border: solid 3px #E5CE34;
+    background-color: #E5CE34;
+}
+ #workout img{
+    height: 120px;
+    background-color: #d5be25;
+    border-radius: 50%;
+}
+
+.box{
+    text-align: center;
+   margin-top: 40px;
+   
+}
+#price{
+    min-height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7) ),
+     url(../images/background.jpg);
+     background-position: center;
+     background-size: cover;
+     margin: 50px;
+     background-attachment: fixed;
+ 
+}
+.price {
+    border: solid 1px transparent;
+        border-radius: 3px;
+        background-color: transparent;
+        margin-right: 40px;
+        margin-left: 60px;
+        margin-top: 10px;
+       
+       
+    }
+    .price:hover{
+        transform: scale(1.1);
+        background-color: black;
+    }
+    .p{
+        color: #E5CE34;
+       font-size: 50px;
+       
+    }
+    #price span{
+       font-size: 15px;
+       font-weight: bold;
+    }
+   
+    .row hr{
+        width: 50%;
+        background-color: #E5CE34;
+        border: solid 1px #E5CE34;
+       margin: 50px;
+       
+    }
+    #price i{
+        color: #E5CE34;
+        margin: 10px;
+    
+    }
+    #price button{
+        border: solid 2px #E5CE34;
+        background-color: #E5CE34;
+        color: white;
+       margin: 10px 0px 10px 80px;
+        height: 40px;
+        width: 80px;
+        font-size: 17px;
+        
+    }
+    #price button:hover{
+      
+        border: solid 2px white;
+        background-color:white ;
+        color: #E5CE34;
+       
+    }
+   h4{
+    padding-left: 90px;
+    font-size: 20px;
+   }
+   .opinion{
+     margin-top: 40px;
+    padding-left: 150px;
+    padding-right: 40px;
+     
+   }
+   #people i{
+    font-size: 50px;
+    color: #c6b022;
+}
+#people p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 22px;
+    
+}
+
+#people img{
+    width: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#contact img{
+    width: 100%;
+    margin-top: 25px;
+    height: 510px;
+}
+#contact form{
+    margin-top: 50px;
+    font-size: 20px;
+}
+input[type=text],
+input[type=email],
+select,textarea
+{
+width: 100%;
+margin-bottom: 30px;
+padding: 7px;
+border: solid 1px #ddd;
+border-radius: 2px;
+}
+input[type=checkbox]{
+    margin-bottom: 25px;
+}
+ #contact button{
+    background-color: #c6b022;
+    border: solid 2px #c6b022 ;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+}
+button:hover{
+    background-color: transparent;
+    color: #c6b022;
+}
+
+footer{
+    padding: 30px 0px;
+    background-color: #060606;
+    color: white;
+   text-align: center;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-nav {
+    list-style: none;
+    display: flex;
+}
+.footer-nav li{
+    margin-left: 30px;
+}
+.footer-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.footer-nav li a:hover{
+    color: #c6b022;
+}
+.social-nav{
+    list-style: none;
+    display: flex;
+   
+}
+.social-nav li{
+    margin-left: 30px; 
+  
+}
+.social-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.social-nav li a:hover{
+    
+    color: #c6b022;
+}
